@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+      <section class="home-intro">
+        <h1></h1>
+      </section>
+
+      <div class="home-about">
+        <h1>Welcome</h1>
+        <img> 
+        <p>My name is Ethan Steckler, I am a cyber security student and attend Evansville North Highschool and Southern Indiana Career and Technical Center (SICTC) as a senior.</p>
+        <img src="images/Headshot.png" width="150" height="200" style="border-style: outset; border-width: 3px; border-color: #3282B8;" >
+        <h2>↑ Thats Me!<style> h2{ margin-left: 2em;}</style></h2>
+        <div class="columns">
+
+          <div class="col fade-in">
+            <h3>My Past</h3>
+            <img src="images/49%.png">
+            <p>
+              When I started I feel like I had a good grasp on coding but I quickly learned that there was such a huge world out there for me to learn.
+            </p>
+          </div>
+
+          <div class="col fade-in">
+            <h3>My Present</h3>
+            <img src="images/74%.png">
+            <p>
+              Ive expierenced a part of this world and I can say that I know a thing or two but there is still much to learn.
+            </p>
+          </div>
+
+          <div class="col fade-in">
+            <h3>My Future</h3>
+            <img src="images/85%.png">
+            <p>
+              Ive learned a lot by this point but you can never stop learning and I hope I can learn more and more as I progress.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-more-stuff">
+        <div class="more-stuff-grid">
+          <p class="slide-in from-right">
+            Over time though as I worked more with HTLM I did projects and expanded my knowledge in the language and I made a few projects: 
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            <a href="https://github.com/SauceSavior/CYOA"><img src="images/CYOA.png" width="400" height="200"></a>
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-right">
+            <a href="https://github.com/SauceSavior/Guess-A-Number"><img src="images/Guess.png" width="400" height="200"> </a>
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            <a href="https://editor.p5js.org/SauceSavior/full/HnrAfePwc"><img src="images/Penrose.png" width="200" height="300"> </a>
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-right">
+            <h1>Contact Me</h1>
+            <form action="submit_form.php" method="POST" style="color: #3282B8;">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br><br>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea><br><br>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </p>
+        </div>
+        
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
